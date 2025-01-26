@@ -12,8 +12,8 @@ public class Fr94parser {
 
 	public static void main(String[] args) throws IOException {
         // Path to the FBIS files and the output directory for individual documents
-        String fbisDirPath = "C:/Users/TIRTHANKAR KHAUND/Desktop/InformationRetrieval2/Assignment Two/fr94/01";
-        String outputDirPath = "C:/Users/TIRTHANKAR KHAUND/Desktop/InformationRetrieval2/parsed_frs94_docs/01/";
+        String fbisDirPath = "./fr94/01";
+        String outputDirPath = "./parsed_frs94_docs/01/";
 
         // Create the output directory if it doesn't exist
         File outputDir = new File(outputDirPath);

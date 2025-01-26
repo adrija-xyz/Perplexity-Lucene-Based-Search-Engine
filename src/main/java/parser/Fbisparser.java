@@ -12,8 +12,8 @@ public class Fbisparser {
 
     public static void main(String[] args) throws IOException {
         // Path to the FBIS files and the output directory for individual documents
-        String fbisDirPath = "C:\\Users\\Subhayan Das\\Desktop\\Course\\Information Retrieval\\Assignment 2\\Assignment Two\\fbis";
-        String outputDirPath = "C:\\Users\\Subhayan Das\\Desktop\\Course\\Information Retrieval\\Assignment 2\\Assignment Two\\fbis_parsed\\";
+        String fbisDirPath = "./fbis";
+        String outputDirPath = "./fbis_parsed";
 
         // Create the output directory if it doesn't exist
         File outputDir = new File(outputDirPath);

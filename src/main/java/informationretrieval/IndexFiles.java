@@ -34,10 +34,10 @@ public class IndexFiles {
 
     public static void main(String[] args) {
         try {
-            IndexFiles indexer = new IndexFiles("C:\\Users\\Subhayan Das\\Desktop\\Course\\Information Retrieval\\Assignment 2\\Assignment Two\\index-files"); //output
+            IndexFiles indexer = new IndexFiles("./index-files"); //output
 
             // Assuming you want to load all files from the 'all_parsed' directory
-            String directoryPath = "C:\\Users\\Subhayan Das\\Desktop\\Course\\Information Retrieval\\Assignment 2\\Assignment Two\\all_parsed";
+            String directoryPath = "./all_parsed";
             
             // Now we call the method to load and index all documents from the directory
             LoaderForAll.createDocumentsFromText(directoryPath, indexer);

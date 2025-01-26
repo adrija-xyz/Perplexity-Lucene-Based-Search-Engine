@@ -12,8 +12,8 @@ public class LAparser {
 
     public static void main(String[] args) throws IOException {
         // Path to the FBIS files and the output directory for individual documents
-        String fbisDirPath = "C:\\Users\\Subhayan Das\\Desktop\\Course\\Information Retrieval\\Assignment 2\\Assignment Two\\latimes";
-        String outputDirPath = "C:\\Users\\Subhayan Das\\Desktop\\Course\\Information Retrieval\\Assignment 2\\Assignment Two\\latimes_parsed/";
+        String fbisDirPath = "./latimes";
+        String outputDirPath = "./latimes_parsed/";
 
         // Create the output directory if it doesn't exist
         File outputDir = new File(outputDirPath);

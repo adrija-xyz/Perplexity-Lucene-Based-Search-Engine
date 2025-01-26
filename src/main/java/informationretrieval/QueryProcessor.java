@@ -38,8 +38,8 @@ public class QueryProcessor {
 
         //-------------- Initialize reader, writer, and searcher --------------
 
-        String indexDirectory = "C:\\Users\\Subhayan Das\\Desktop\\Course\\Information Retrieval\\Assignment 2\\Assignment Two\\index-files";
-        String outputFilePath = "C:\\Users\\Subhayan Das\\Desktop\\Course\\Information Retrieval\\Assignment 2\\Assignment Two\\results_100_custom.txt";
+        String indexDirectory = "./index-files";
+        String outputFilePath = "../results_100_custom.txt";
         IndexReader indexReader = DirectoryReader.open(FSDirectory.open(Paths.get(indexDirectory)));
         PrintWriter resultWriter = new PrintWriter(outputFilePath, StandardCharsets.UTF_8);
         IndexSearcher searchEngine = new IndexSearcher(indexReader);
